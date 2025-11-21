@@ -726,7 +726,7 @@ background-image: url(./img/frame-1-39.png) !important;
   align-self: center;
   font-family: "Montserrat-Light", Helvetica;
   font-weight: 300;
-  color: #faefd9;
+  color: #000000;
   font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
@@ -922,6 +922,7 @@ background-image: url(./img/frame-1-39.png) !important;
   white-space: nowrap;
   border-width: 0;
 }
+
 
 
 
