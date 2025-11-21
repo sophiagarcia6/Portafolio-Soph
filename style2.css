@@ -1,0 +1,1156 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+      background-color: #faefd9;
+        justify-content: center;
+}
+
+
+/* ESTE DIV CENTRA EL DISEÑO */
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.SOBRE-MI-DESKTOP {
+ width: 1440px;
+  min-height: 2427px;
+  position: relative;
+
+  /* Escalado y centrado */
+  transform-origin: top center;
+  transform: scale(calc(100vw / 1440));
+  margin: 0 auto;      /* CENTRA el diseño */
+}
+
+
+.SOBRE-MI-DESKTOP .LOGO {
+  position: absolute;
+  top: 67px;
+  left: calc(50.00% - 65px);
+  max-width: 100%;
+  height: 129px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .BOTONES {
+  position: absolute;
+  top: 110px;
+  left: 181px;
+  width: 1078px;
+  height: 42px;
+  
+}
+
+.SOBRE-MI-DESKTOP .component {
+  left: 914px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper {
+  position: absolute;
+  width: 85.37%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 7.32%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .div-wrapper {
+  right: 914px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.SOBRE-MI-DESKTOP .div {
+  position: absolute;
+  width: 40.24%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 29.88%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .component-2 {
+  left: 203px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-2 {
+  position: absolute;
+  width: 62.80%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 18.90%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .component-3 {
+  left: 712px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-3 {
+  position: absolute;
+  width: 76.83%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 11.59%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .soy-una-dise-adora {
+  position: absolute;
+  top: 531px;
+  left: calc(50.00% - 8px);
+  width: 509px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .span {
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-4 {
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+}
+
+.SOBRE-MI-DESKTOP .carpeta {
+  position: absolute;
+  top: 2076px;
+  left: 0;
+  width: 1440px;
+  height: 351px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-5 {
+  position: absolute;
+  top: 2091px;
+  left: 97px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .explorar {
+  position: absolute;
+  top: 2278px;
+  left: 344px;
+  width: 390px;
+  height: 45px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-6 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 40px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-7 {
+  position: absolute;
+  top: 27px;
+  left: 76px;
+  width: 67px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-8 {
+  position: absolute;
+  top: 27px;
+  left: 178px;
+  width: 73px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-9 {
+  position: absolute;
+  top: 27px;
+  left: 286px;
+  width: 94px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 86px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .contacto {
+  position: absolute;
+  top: 2177px;
+  left: 344px;
+  width: 261px;
+  height: 64px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-11 {
+  position: absolute;
+  top: 20px;
+  left: 26px;
+  width: 229px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-12 {
+  position: absolute;
+  top: 45px;
+  left: 26px;
+  width: 85px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .instagram {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.SOBRE-MI-DESKTOP .icon {
+  position: absolute;
+  width: 83.33%;
+  height: 83.33%;
+  top: 4.17%;
+  left: 4.20%;
+}
+
+.SOBRE-MI-DESKTOP .mail {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.SOBRE-MI-DESKTOP .img {
+  position: absolute;
+  width: 83.33%;
+  height: 66.67%;
+  top: 12.50%;
+  left: 4.20%;
+}
+
+.SOBRE-MI-DESKTOP .barra {
+  position: absolute;
+  top: 2177px;
+  left: 922px;
+  width: 378px;
+  height: 98px;
+}
+
+.SOBRE-MI-DESKTOP .rectangle {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  width: 372px;
+  height: 47px;
+  background-color: #ffffff;
+  border-radius: 28.2px;
+}
+
+.SOBRE-MI-DESKTOP .subtract {
+  position: absolute;
+  top: 51px;
+  left: 305px;
+  width: 67px;
+  height: 47px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-14 {
+  position: absolute;
+  top: 66px;
+  left: 19px;
+  width: 41px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #818181;
+  font-size: 14.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 146px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .p {
+  position: absolute;
+  top: 19px;
+  left: 3px;
+  width: 232px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .send {
+  position: absolute;
+  top: 61px;
+  left: 326px;
+  width: 25px;
+  height: 25px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .abajo {
+  position: absolute;
+  top: 2366px;
+  left: calc(50.00% - 683px);
+  width: 1368px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
+}
+
+.SOBRE-MI-DESKTOP .line {
+  width: 1366px;
+  height: 1px;
+  margin-top: -0.5px;
+}
+
+.SOBRE-MI-DESKTOP .derechos-reservados {
+  margin-left: -14px;
+  height: 18px;
+  width: 332px;
+  align-self: center;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-16 {
+  font-family: "Montserrat-LightItalic", Helvetica;
+  font-style: italic;
+}
+.STICKERS {
+  position: absolute;
+  top: 2138px;
+  left: 76px;
+  width: 184px;
+  height: 211px;
+}
+
+.IMG {
+  position: absolute !important;
+  top: 29px;
+  left: 78px;
+  width: 116px;
+  height: 108px;
+  aspect-ratio: 1.09;
+}
+
+.IMG-2 {
+  position: absolute;
+  top: 76px;
+  left: 21px;
+  width: 136px;
+  height: 145px;
+  aspect-ratio: 0.93;
+}
+
+.IMG-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 139px;
+  height: 165px;
+  aspect-ratio: 0.62;
+}
+
+.SOBRE-MI-DESKTOP .sophia-garcia {
+  position: absolute;
+  top: 297px;
+  left: 698px;
+  width: 304px;
+  height: 161px;
+  aspect-ratio: 1.89;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-2 {
+  position: absolute;
+  top: 467px;
+  left: 712px;
+  width: 184px;
+  height: 31px;
+  background-color: #ffc02f;
+  border-radius: 24.75px;
+}
+
+.SOBRE-MI-DESKTOP .ubicacin {
+  position: absolute;
+  top: 474px;
+  left: calc(50.00% + 6px);
+  width: 159px;
+  height: 19px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-17 {
+  position: absolute;
+  top: 2px;
+  left: calc(50.00% - 55px);
+  width: 133px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .location {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 19px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-3 {
+  position: absolute;
+  top: 258px;
+  left: 0;
+  width: 400px;
+  height: 561px;
+  background-color: #f1e0bf;
+}
+.flor {
+    position: absolute;
+    transform: rotate(-34deg);
+  top: 666px;
+  left: 450px;
+  width: auto;
+    z-index: 5;
+}
+.SOBRE-MI-DESKTOP .FOTO {
+  position: absolute;
+  top: 245px;
+  left: 273px;
+  width: 350px;
+  height: 588px;
+    padding: 10px;            /* espacio entre la imagen y el borde */
+  border: 2px solid #000;
+  border-radius: 200px;
+}
+
+.SOBRE-MI-DESKTOP .HOJAS {
+  position: absolute;
+  top: 611px;
+  left: 661px;
+  width: 779px;
+  height: 208px;
+}
+
+.SOBRE-MI-DESKTOP .hojas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 567px;
+  height: 208px;
+}
+
+.SOBRE-MI-DESKTOP .ilustracion-sin {
+  position: absolute;
+  top: 0;
+  left: 44px;
+  width: 523px;
+  height: 208px;
+  aspect-ratio: 2.51;
+}
+
+.SOBRE-MI-DESKTOP .ilustracion-sin-2 {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  width: 89px;
+  height: 76px;
+  aspect-ratio: 0.11;
+}
+
+.SOBRE-MI-DESKTOP .line-2 {
+  position: absolute;
+  top: 204px;
+  left: 34px;
+  width: 745px;
+  height: 5px;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .PROGRAMAS {
+  position: absolute;
+  top: 993px;
+  left: calc(50.00% - 423px);
+  width: 847px;
+  height: 145px;
+  display: flex;
+}
+
+.SOBRE-MI-DESKTOP .ellipse {
+  width: 144px;
+  height: 144px;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .ellipse-2 {
+  width: 144px;
+  height: 144px;
+  margin-left: 90px;
+  object-fit: cover;
+}
+
+.SOBRE-MI-DESKTOP .ellipse-3 {
+  width: 136px;
+  height: 136px;
+  margin-left: 98px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-18 {
+  position: absolute;
+  top: 899px;
+  left: calc(50.00% - 179px);
+  width: 358px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 45.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .group {
+  position: absolute;
+  top: 1298px;
+  left: calc(50.00% - 740px);
+  width: 743px;
+  height: 592px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-19 {
+  position: absolute;
+  top: 121px;
+  left: calc(50.00% - 250px);
+  width: 358px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .element {
+  position: absolute;
+  top: 204px;
+  left: 0;
+  width: 645px;
+  height: 92px;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 193px;
+  height: 92px;
+  background-color: #ffc02f;
+  border-radius: 12.78px;
+}
+
+.SOBRE-MI-DESKTOP .element-2 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% - 199px);
+  width: 52px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 39px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.6px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-20 {
+  position: absolute;
+  top: 14px;
+  left: calc(50.00% - 98px);
+  width: 248px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-21 {
+  position: absolute;
+  top: 59px;
+  left: calc(50.00% - 98px);
+  width: 414px;
+  font-family: "Montserrat-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .element-3 {
+  position: absolute;
+  top: 326px;
+  left: 0;
+  width: 645px;
+  height: 92px;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-5 {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  width: 730px;
+  height: 592px;
+  border: 3px solid;
+  border-color: #ffc02f;
+}
+
+.SOBRE-MI-DESKTOP .group-2 {
+  position: absolute;
+  top: 1298px;
+  left: 720px;
+  width: 732px;
+  height: 592px;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 730px;
+  height: 592px;
+  background-color: #ffc02f;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-22 {
+  position: absolute;
+  top: 121px;
+  left: calc(50.00% - 95px);
+  width: 358px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 45px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .group-3 {
+  position: absolute;
+  top: 189px;
+  left: calc(50.00% + 9px);
+  width: 260px;
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-23 {
+  margin-left: 97px;
+  height: 43px;
+  width: 151px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.6px;
+}
+
+.SOBRE-MI-DESKTOP .creaci-n-de {
+  margin-left: -6px;
+  height: 36px;
+  width: 254px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-24 {
+  margin-left: -6px;
+  height: 18px;
+  width: 254px;
+  font-family: "Montserrat-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .group-4 {
+  position: absolute;
+  top: 329px;
+  left: calc(50.00% - 11px);
+  width: 280px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-25 {
+  margin-left: -6px;
+  height: 43px;
+  width: 274px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 42.6px;
+}
+
+.SOBRE-MI-DESKTOP .trabajos-de-dise-o {
+  margin-left: 14px;
+  height: 80px;
+  width: 254px;
+  margin-top: 4px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-26 {
+  margin-left: 14px;
+  height: 18px;
+  width: 254px;
+  font-family: "Montserrat-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 15px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .IDIOMAS {
+  position: absolute;
+  width: 438px;
+  height: 23px;
+  top: 1186px;
+  left: 501px;
+}
+
+.SOBRE-MI-DESKTOP .group-5 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 219px);
+  width: 194px;
+  height: 23px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-27 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% - 97px);
+  width: 105px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-7 {
+  position: absolute;
+  top: 0;
+  left: 88px;
+  width: 102px;
+  height: 23px;
+  background-color: #ffc02f;
+  border-radius: 15px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-28 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% + 14px);
+  width: 57px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .group-6 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% + 46px);
+  width: 177px;
+  height: 23px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-29 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% - 88px);
+  width: 105px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .rectangle-8 {
+  position: absolute;
+  top: 0;
+  left: 71px;
+  width: 102px;
+  height: 23px;
+  background-color: #ffc02f;
+  border-radius: 15px;
+}
+
+.SOBRE-MI-DESKTOP .text-wrapper-30 {
+  position: absolute;
+  top: 3px;
+  left: calc(50.00% + 6px);
+  width: 57px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.SOBRE-MI-DESKTOP .IMG-4 {
+  position: absolute;
+  top: 1474px;
+  left: 613px;
+  width: 226px;
+  height: 239px;
+  aspect-ratio: 0.93;
+}
+/* INJECT ORIGINAL CSS CODE HERE */
+
+.SOBRE-MI-DESKTOP header {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .BOTONES a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.SOBRE-MI-DESKTOP .component span,
+.SOBRE-MI-DESKTOP .div-wrapper span,
+.SOBRE-MI-DESKTOP .component-2 span,
+.SOBRE-MI-DESKTOP .component-3 span {
+  display: block;
+}
+
+.SOBRE-MI-DESKTOP .barra {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .barra input[type="email"] {
+  position: absolute;
+  top: 66px;
+  left: 19px;
+  width: 280px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  outline: none;
+  z-index: 1;
+}
+
+.SOBRE-MI-DESKTOP .barra input[type="email"]::placeholder {
+  color: #818181;
+}
+
+.SOBRE-MI-DESKTOP .barra input[type="email"]:focus {
+  outline: 2px solid #ffc02f;
+  outline-offset: 2px;
+}
+
+.SOBRE-MI-DESKTOP .barra button {
+  position: absolute;
+  top: 61px;
+  left: 326px;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 2;
+}
+
+.SOBRE-MI-DESKTOP .barra button:hover {
+  opacity: 0.8;
+}
+
+.SOBRE-MI-DESKTOP .barra button:focus {
+  outline: 2px solid #ffc02f;
+  outline-offset: 2px;
+}
+
+.SOBRE-MI-DESKTOP .barra button img {
+
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+      z-index: 5;
+}
+
+
+.SOBRE-MI-DESKTOP .contacto a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.SOBRE-MI-DESKTOP .contacto a:hover {
+  text-decoration: underline;
+}
+
+.SOBRE-MI-DESKTOP .contacto a:focus {
+  outline: 2px solid #ffc02f;
+  outline-offset: 2px;
+}
+
+.SOBRE-MI-DESKTOP .explorar a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.SOBRE-MI-DESKTOP .explorar a:hover {
+  color: #ffc02f;
+}
+
+.SOBRE-MI-DESKTOP .explorar a:focus {
+  outline: 2px solid #ffc02f;
+  outline-offset: 2px;
+}
+
+.SOBRE-MI-DESKTOP .BOTONES a:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
+
+.SOBRE-MI-DESKTOP .BOTONES a:focus {
+  outline: 2px solid #ffc02f;
+  outline-offset: 4px;
+}
+
+.SOBRE-MI-DESKTOP address {
+  font-style: normal;
+}
+
+.SOBRE-MI-DESKTOP main {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP footer {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .hero-section {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .programas-section {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .idiomas-section {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .educacion-section {
+  position: relative;
+}
+
+.SOBRE-MI-DESKTOP .experiencia-section {
+  position: relative;
+}

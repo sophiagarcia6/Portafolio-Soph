@@ -1,0 +1,820 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    background-color: #faefd9
+}
+
+
+
+/* ESTE DIV CENTRA EL DISEÑO */
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.PROYECTOS-DESKTOP {
+  width: 1440px;
+  min-height: 2427px;
+  position: relative;
+
+  /* Escalado y centrado */
+  transform-origin: top center;
+  transform: scale(calc(100vw / 1440));
+  margin: 0 auto;      /* CENTRA el diseño */
+  
+}
+
+.PROYECTOS-DESKTOP .LOGO {
+  position: absolute;
+  top: 67px;
+  left: calc(50.00% - 65px);
+  width: 129px;
+  height: 129px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .BOTONES {
+  position: absolute;
+  top: 110px;
+  left: 181px;
+  width: 1078px;
+  height: 42px;
+}
+
+.PROYECTOS-DESKTOP .component {
+  left: 914px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper {
+  position: absolute;
+  width: 85.37%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 7.32%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .div-wrapper {
+  right: 914px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.PROYECTOS-DESKTOP .div {
+  position: absolute;
+  width: 40.24%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 29.88%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .component-2 {
+  left: 203px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-2 {
+  position: absolute;
+  width: 62.80%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 18.90%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .component-3 {
+  left: 712px;
+  position: absolute;
+  top: 0;
+  width: 164px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 40px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-3 {
+  position: absolute;
+  width: 76.83%;
+  height: 57.14%;
+  top: 21.43%;
+  left: 11.59%;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .carpeta {
+  position: absolute;
+  top: 2076px;
+  left: 0;
+  width: 1440px;
+  height: 351px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-4 {
+  position: absolute;
+  top: 2091px;
+  left: 97px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .explorar {
+  position: absolute;
+  top: 2278px;
+  left: 344px;
+  width: 390px;
+  height: 45px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-5 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 40px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-6 {
+  position: absolute;
+  top: 27px;
+  left: 76px;
+  width: 67px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-7 {
+  position: absolute;
+  top: 27px;
+  left: 178px;
+  width: 73px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-8 {
+  position: absolute;
+  top: 27px;
+  left: 286px;
+  width: 94px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 86px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .contacto {
+  position: absolute;
+  top: 2177px;
+  left: 344px;
+  width: 261px;
+  height: 64px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-10 {
+  position: absolute;
+  top: 20px;
+  left: 26px;
+  width: 229px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-11 {
+  position: absolute;
+  top: 45px;
+  left: 26px;
+  width: 85px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .instagram {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.PROYECTOS-DESKTOP .icon {
+  position: absolute;
+  width: 83.33%;
+  height: 83.33%;
+  top: 4.17%;
+  left: 4.20%;
+}
+
+.PROYECTOS-DESKTOP .mail {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.PROYECTOS-DESKTOP .img {
+  position: absolute;
+  width: 83.33%;
+  height: 66.67%;
+  top: 12.50%;
+  left: 4.20%;
+}
+
+.PROYECTOS-DESKTOP .barra {
+    position: absolute;
+    top: 2177px;
+    left: 922px;
+    width: 378px;
+}
+
+
+.PROYECTOS-DESKTOP .rectangle {
+  position: relative;
+  top: 51px;
+  left: 0;
+  width: 370px;
+  height: 47px;
+  background-color: #ffffff;
+  border-radius: 28.2px;
+}
+
+.PROYECTOS-DESKTOP .subtract {
+  position: relative;
+  top: 51px;
+  left: 305px;
+  width: 372px;
+  height: 47px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-13 {
+  position: absolute;
+  top: 66px;
+  left: 19px;
+  width: 41px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #818181;
+  font-size: 14.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 146px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .p {
+  position: absolute;
+  top: 19px;
+  left: 3px;
+  width: 232px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .send {
+  position: absolute;
+  top: 61px;
+  left: 326px;
+  width: 25px;
+  height: 25px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .abajo {
+  position: absolute;
+  top: 2366px;
+  left: calc(50.00% - 683px);
+  width: 1368px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
+}
+
+.PROYECTOS-DESKTOP .line {
+  width: 1366px;
+  height: 1px;
+  margin-top: -0.5px;
+}
+
+.PROYECTOS-DESKTOP .derechos-reservados {
+  margin-left: -14px;
+  height: 18px;
+  width: 332px;
+  align-self: center;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PROYECTOS-DESKTOP .span {
+  font-family: "Montserrat-LightItalic", Helvetica;
+  font-style: italic;
+}
+
+.PROYECTOS-DESKTOP .STICKERS {
+  position: absolute;
+  top: 2138px;
+  left: 76px;
+  width: 184px;
+  height: 211px;
+}
+
+.PROYECTOS-DESKTOP .IMG {
+  position: absolute;
+  top: 29px;
+  left: 78px;
+  width: 116px;
+  height: 108px;
+  aspect-ratio: 1.09;
+}
+
+.PROYECTOS-DESKTOP .IMG-2 {
+  position: absolute;
+  top: 76px;
+  left: 21px;
+  width: 136px;
+  height: 145px;
+  aspect-ratio: 0.93;
+}
+
+.PROYECTOS-DESKTOP .IMG-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 139px;
+  height: 165px;
+  aspect-ratio: 0.62;
+}
+
+.PROYECTOS-DESKTOP .auto-flex {
+  position: absolute;
+  width: 1140px;
+  top: 424px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 1518px;
+}
+
+.PROYECTOS-DESKTOP .group {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  width: 1140px;
+  gap: 40px;
+  height: auto !important;
+    margin-bottom: 30px; 
+}
+
+.PROYECTOS-DESKTOP .group-2 {
+  width: 385px;
+    gap: 40px;
+  height: 325px;
+  position: relative; 
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-15 {
+  position: absolute;
+  top: 307px;
+  left: calc(50.00% - 50px);
+  width: 95px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 363px;
+  height: 257px;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-16 {
+  position: absolute;
+  top: 269px;
+  left: calc(50.00% - 192px);
+  width: 381px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.6px;
+}
+
+.PROYECTOS-DESKTOP .group-3 {
+  width: 385px;
+  height: 325px;
+  position: relative; /* NO absolute */
+    gap: 40px;
+}
+
+.PROYECTOS-DESKTOP .group-4 {
+  width: 385px;
+  height: 325px;
+  position: relative; /* NO absolute */
+    gap: 40px;
+}
+
+.PROYECTOS-DESKTOP .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 362px;
+  height: 257px;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-17 {
+  position: absolute;
+  top: 307px;
+  left: calc(50.00% - 96px);
+  width: 189px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .group-5 {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  width: 1140px;
+  gap: 40px;
+  height: auto !important;
+      margin-bottom: 30px; 
+}
+
+.PROYECTOS-DESKTOP .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 363px;
+  height: 257px;
+}
+
+.PROYECTOS-DESKTOP .rectangle-5 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 362px;
+  height: 257px;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .group-6 {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  width: 1140px;
+  gap: 40px;
+  height: auto !important;
+  
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-18 {
+  position: absolute;
+  top: 307px;
+  left: calc(50.00% - 86px);
+  width: 169px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .text-wrapper-19 {
+  position: absolute;
+  top: 307px;
+  left: calc(50.00% - 98px);
+  width: 192px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.PROYECTOS-DESKTOP .rectangle-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 372px;
+  height: 269px;
+}
+
+.PROYECTOS-DESKTOP .proyectos {
+  position: absolute;
+  top: 269px;
+  left: 495px;
+  width: 449px;
+  height: 105px;
+  aspect-ratio: 4.28;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .IMG-4 {
+  left: 365px;
+  position: absolute;
+  top: 263px;
+  width: 118px;
+  height: 118px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.PROYECTOS-DESKTOP .IMG-5 {
+  left: 956px;
+  position: absolute;
+  top: 263px;
+  width: 118px;
+  height: 118px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+/* Original CSS code should be injected here */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.PROYECTOS-DESKTOP .BOTONES a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.PROYECTOS-DESKTOP .component span,
+.PROYECTOS-DESKTOP .div-wrapper span,
+.PROYECTOS-DESKTOP .component-2 span,
+.PROYECTOS-DESKTOP .component-3 span {
+  display: block;
+}
+
+.PROYECTOS-DESKTOP .explorar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.PROYECTOS-DESKTOP .explorar nav ul li {
+  display: inline;
+}
+
+.PROYECTOS-DESKTOP .explorar a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.PROYECTOS-DESKTOP .contacto address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.PROYECTOS-DESKTOP .barra form {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.PROYECTOS-DESKTOP .barra .rectangle {
+    width: 372px;
+    height: 47px;
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+}
+
+.PROYECTOS-DESKTOP .barra input[type="email"] {
+      flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    top:15px;
+    font-family: "Montserrat-Light", Helvetica;
+    font-size: 14px;
+    color: #000;
+}
+
+.PROYECTOS-DESKTOP .barra input[type="email"]::placeholder {
+    color: #818181;
+}
+
+.PROYECTOS-DESKTOP .barra input[type="email"]:focus {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+.PROYECTOS-DESKTOP .barra button {
+    width: 40px;
+    height: 40px;
+    left: 291px;
+    top:-3.5px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.PROYECTOS-DESKTOP .barra button:hover {
+  opacity: 0.8;
+}
+
+.PROYECTOS-DESKTOP .barra button:focus {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+.PROYECTOS-DESKTOP .barra .subtract {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 67px;
+  height: 47px;
+  pointer-events: none;
+}
+
+.PROYECTOS-DESKTOP .barra .send {
+  position: absolute;
+  top: 10px;
+  left: 21px;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+.PROYECTOS-DESKTOP .auto-flex article {
+  display: contents;
+}
+
+.PROYECTOS-DESKTOP .auto-flex .proyectos,
+.PROYECTOS-DESKTOP .auto-flex .IMG-4,
+.PROYECTOS-DESKTOP .auto-flex .IMG-5 {
+  position: absolute;
+}
+
+.PROYECTOS-DESKTOP .auto-flex .proyectos {
+  top: -155px;
+  left: 345px;
+}
+
+.PROYECTOS-DESKTOP .auto-flex .IMG-4 {
+  top: -161px;
+  left: 215px;
+}
+
+.PROYECTOS-DESKTOP .auto-flex .IMG-5 {
+  top: -161px;
+  left: 806px;
+}
